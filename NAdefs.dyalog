@@ -8,9 +8,9 @@
  librtl←'C:\MPath\rtlsdr.dll'
 
  u4←'U4'  ⍝ unsigned int 32
- cc←'<0T' ⍝ const char *char
+ cc←'<0T1' ⍝ const char *char
  i←'I'    ⍝ int
- oc←'>0T' ⍝ output char (char *char)
+ oc←'>0T1' ⍝ output char (char *char)
  prtlsdr_dev←'>P'
  rtlsdr_dev←'P'
  defrtl←{(⊃⍵)⎕NA ⍺,' ',librtl,'|',⊃,/(⍵,¨⊂' ')}
